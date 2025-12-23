@@ -27,5 +27,29 @@ A fully responsive **E-Commerce Frontend Website** built for selling gadgets lik
 - **Build Tool:** Vite
 - **Icons:** FontAwesome & BoxIcons
 - **Version Control:** Git & GitHub
-
+ 
+ ## 📂 Project Structures
+ecommerce_storefront/
+│
+├── 📂 api/                   # Product JSON data (products.json)
+│
+├── 📂 src/                   # Main Source Code
+│   ├── 📂 images/            # Project Images
+│   ├── about.js
+│   ├── addToCart.js
+│   ├── getCartProducts.js
+│   ├── main.js
+│   ├── showAddToCards.js
+│   ├── updateCartValue.js
+│   └── style.css             # CSS Styles
+│
+├── about.html                # About Page
+├── addToCart.html            # Cart Page
+├── contact.html              # Contact Page
+├── index.html                # Home Page
+├── products.html             # Products Page
+│
+├── .gitignore                # Git ignore rules
+├── package.json              # Project dependencies
+└── README.md                 # Project Documentation
 
